@@ -1,0 +1,8 @@
+﻿C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1422,5): warning : The referenced project '..\..\..\libiconv-1.14.vc10\windows\VC10\iconv.vcxproj' does not exist.
+  runsuite.c
+     Creating library C:\Users\Simon\libxml2-2.9.1\win32\VC10\..\..\lib\runsuite.lib and object C:\Users\Simon\libxml2-2.9.1\win32\VC10\..\..\lib\runsuite.exp
+runsuite.obj : warning LNK4049: locally defined symbol _xmlFree imported
+libxml2.lib(encoding.obj) : error LNK2019: unresolved external symbol _libiconv_close referenced in function _xmlFindCharEncodingHandler
+libxml2.lib(encoding.obj) : error LNK2019: unresolved external symbol _libiconv_open referenced in function _xmlFindCharEncodingHandler
+libxml2.lib(encoding.obj) : error LNK2019: unresolved external symbol _libiconv referenced in function _xmlIconvWrapper
+C:\Users\Simon\libxml2-2.9.1\win32\VC10\..\..\lib\runsuite.exe : fatal error LNK1120: 3 unresolved externals

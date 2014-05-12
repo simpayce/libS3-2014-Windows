@@ -1,0 +1,2 @@
+﻿C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1422,5): warning : The referenced project '..\..\..\libiconv-1.14.vc10\windows\VC10\iconv.vcxproj' does not exist.
+  libxml2.vcxproj -> C:\Users\Simon\libxml2-2.9.1\win32\VC10\..\..\lib\libxml2.lib
